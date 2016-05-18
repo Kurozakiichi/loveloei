@@ -2,13 +2,13 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'LoveLoei Project';
 Yii::$app->db->open();
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Kurozakiichi!</h1>
+        <h1>Kurozakiichi GitHub</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
