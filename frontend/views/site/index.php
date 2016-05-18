@@ -4,12 +4,13 @@
 
 $this->title = 'LoveLoei Project';
 Yii::$app->db->open();
+
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Kurozakiichi GitHub</h1>
-
+        <?php $path = "?r=test" ?>
+        <a href="<?= $path ?>" target="_blank"><h1>Kurozakiichi GitHub</h1></a>
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
